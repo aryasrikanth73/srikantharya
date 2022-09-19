@@ -1,3 +1,7 @@
+::selection {
+  color: #fff;
+  background: #39BFED;
+}
 /* Timeline custom component */
 .timeline-card {
   position: relative;
