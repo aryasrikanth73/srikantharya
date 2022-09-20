@@ -31,7 +31,9 @@
     </style>
   </noscript>
 </head>
-
+  <div class="prog-container">
+    <div class="prog-bar" id="myBar"></div>
+  </div>
 <body class="bg-light" id="top">
   
   <header class="d-print-none">
@@ -360,6 +362,17 @@
   <script src="scripts/mdb.min.js?ver=1.2.1"></script>
   <script src="scripts/aos.js?ver=1.2.1"></script>
   <script src="scripts/main.js?ver=1.2.1"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
 </body>
 
 </html>
