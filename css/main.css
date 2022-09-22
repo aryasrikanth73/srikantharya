@@ -138,10 +138,10 @@ footer a:not(.nav-link) {
   .mobile-view-call {
     display: block;
 }
-  video{
+/*   video{
     width: 300px;
     height: 400px;
-  }
+  } */
 }
 @media (min-width: 48em) {
   .site-title {
