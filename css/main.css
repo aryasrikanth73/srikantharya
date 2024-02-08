@@ -1,6 +1,7 @@
 .countup {
           text-align: center;
           margin-bottom: 20px;
+          
         }
         .countup .timeel {
           display: inline-block;
@@ -17,7 +18,7 @@
           margin-left: 0;
           background: #258fcc;
           color: rgb(0, 0, 0);
-        }
+          }
 
 ::selection {
   color: #fff;
@@ -182,7 +183,23 @@ footer a:not(.nav-link) {
   .portfolio-reverse {
     flex-direction: column-reverse; }
   .portfolio-reverse .text-end {
-    text-align: start !important; } }
+    text-align: start !important; } 
+    .countup .timeel {
+      width: 50px;
+          margin-top: 5px;
+        }
+        .countup span[class*="timeRef"] {
+          width: 100px;
+          margin-top: 5px;
+        }
+  }
+
+  @media (min-width: 767px) {
+    .countup {
+      display: flex;
+      margin: 10px 0px 0px 10px;
+    }
+  }
 
 @media print {
   [data-aos] {
