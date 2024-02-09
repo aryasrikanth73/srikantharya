@@ -199,8 +199,18 @@ footer a:not(.nav-link) {
       display: flex;
       margin: 10px 0px 0px 10px;
     }
+    iframe {
+      width:400px;
+      height:450px;
+    }
   }
 
+  @media (max-width: 567px) {
+    iframe {
+      width:300px;
+      height:450px;
+    }
+  }
 @media print {
   [data-aos] {
     opacity: 1 !important;
