@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Srikanth Arya Resume</title>
+
+  <script>(function(w, d) { w.CollectId = "63243b0cffa35460773fadb2"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+  </noscript>
+  <link rel="icon" type="image/x-icon" href="images/Srikanth.jpg">
+  <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
+  <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet">
+  <link href="css/aos.css?ver=1.2.1" rel="stylesheet">
+  <link href="css/main.css?ver=1.2.1" rel="stylesheet">
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+
+
+    </style>
+  </noscript>
+  
+    <script>
+            document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+    if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+     return false;
+  }
+  
+  
+}
+        </script>
+</head>
+
+<body class="bg-light" oncontextmenu="return false" id="top">
+  <div class="prog-container">
+    <div class="prog-bar" id="myBar"></div>
+  </div>
+  <header class="d-print-none">
+    <div class="container text-center text-lg-left">
+      <div class="pt-4 clearfix">
+        <h1 class="site-title mb-0">Srikanth Arya</h1>
+        <div class="site-nav">
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" href="#about" title="About"><span
+                    class="menu-title">About</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span
+                    class="menu-title">Skills</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span
+                    class="menu-title">Experience</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span
+                    class="menu-title">Education</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span
+                    class="menu-title">Portfolio</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span
+                    class="menu-title">Contact</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="page-content">
+    <div class="container">
+      <div class="resume-container">
+        <div class="shadow-1-strong bg-white my-5" id="intro">
+          <div class="bg-info text-white">
+            <div class="cover bg-image"><img src="https://blog.talent500.co/wp-content/uploads/2022/04/ReactToolKit_Banner03-1200x500.png" />
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
+                <div class="text-center p-5">
+                  <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="images/Srikanth.jpg"
+                      width="160" height="160" /></div>
+                  <div class="header-bio mt-3">
+                    <div data-aos="zoom-in" data-aos-delay="0">
+                      <h2 class="h1">Srikanth Arya</h2>
+                      <p>Full-stack Web Developer</p>
+                    </div>
+                    <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
+                      <nav role="navigation">
+                        <ul class="nav justify-content-center">
+                          <li class="nav-item"><a target="_blank" class="nav-link"
+                              href="https://www.linkedin.com/in/srikanth-arya-061bb0226" title="Linked-In"><i
+                                class="fab fa-linkedin"></i><span class="menu-title sr-only">Linked-In</span></a>
+                          </li>
+                          <li class="nav-item"><a target="_blank" class="nav-link" href="https://www.facebook.com/srikanth.arya.18"
+                              title="Facebook"><i class="fab fa-facebook"></i><span
+                                class="menu-title sr-only">Facebook</span></a>
+                          </li>
+                          <li class="nav-item"><a target="_blank" class="nav-link"
+                              href="https://instagram.com/srikantharya204?igshid=YmMyMTA2M2Y=" title="Instagram"><i
+                                class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                          </li>
+                          <li class="nav-item"><a target="_blank" class="nav-link" href="https://github.com/aryasrikanth73"
+                              title="Github"><i class="fab fa-github"></i><span
+                                class="menu-title sr-only">Github</span></a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="d-print-none"><a target="_blank" class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3"
+                        href="material-resume-2.pdf" data-aos="fade-right" data-aos-delay="700">Download CV</a><a 
+                        class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left"
+                        data-aos-delay="700">Hire Me</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="mobile-view-call" href="https://api.whatsapp.com/send?phone=+919866783703">
+          <img src="images/whatsapp.gif" alt="Call Me">
+          </a>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+          <div class="about-section">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="h2 fw-light mb-4">About Me</h2>
+                <p>Hello! I’m Srikanth Arya. I am passionate about Web Devopment. I am a skilled
+                  <strong>front-end developer</strong> and also in <strong>back-end developer.</strong>
+                  I am a quick learner and a team worker that gets the job done.
+                </p>
+                <p>I seek challenging opportunities where I can fully use my skills for the success of the organization.</p>
+              </div>
+              <div class="col-md-5 offset-lg-1">
+                <div class="row mt-2">
+                  <h2 class="h2 fw-light mb-4">Bio</h2>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted"
+                        style="width:24px;opacity:0.85;"></i> Age</div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">26</div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted"
+                        style="width:24px;opacity:0.85;"></i> Email</div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">srikantharya1@gmail.com</div>
+                  </div>
+
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted"
+                        style="width:24px;opacity:0.85;"></i> Phone</div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">+91 98667 83703</div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted"
+                        style="width:24px;opacity:0.85;"></i> Address</div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">1-83, Nedunur, Thimmapur, Karimnagar, Telangana, 505530</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
+          <div class="skills-section">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="h2 fw-light mb-4">My Video Resume</h2>
+                <center>
+                    <iframe src="https://www.youtube.com/embed/g79NUK9eTTo?si=-HtN9B-zSTh9eIiv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </center>
+              </div>
+              <div class="col-md-6">
+            <h2 class="h2 fw-light mb-4">Professional Skills</h2>
+                <div class="mb-3"><span class="fw-bolder">React JS</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
+                      data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100">Advanced</div>
+                  </div>
+                </div>
+                <div class="mb-3"><span class="fw-bolder">HTML</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100"
+                      data-aos-anchor=".skills-section" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+                      aria-valuemax="100">Master</div>
+                  </div>
+                </div>
+                <div class="mb-3"><span class="fw-bolder">CSS</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200"
+                      data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100">Expert</div>
+                  </div>
+                </div>
+                <div class="mb-3"><span class="fw-bolder">JavaScript</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
+                      data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100">Advance</div>
+                  </div>
+                </div>
+                <div class="mb-3"><span class="fw-bolder">PHP</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
+                      data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100">Advance</div>
+                  </div>
+                </div>
+                <div class="mb-3"><span class="fw-bolder">MySQL</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
+                      data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100">Advance</div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+          <div class="work-experience-section">
+            <h2 class="h2 fw-light mb-4">Work Experience</h2>
+            <div class="timeline">
+              <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">Junior Web Developer <span class="text-muted h6">at<img src="images/360digitmg.jpg" height="30"  alt="srikant arya"> <a href="https://360digitmg.com/" target="_blank">360DigiTMG Pvt. Ltd.</a></span></div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3">Jul, 2022 - Present
+                  
+                  <div class="countup" id="countup1">
+                      <div>
+                        <span class="timeel years" id="years">00</span>
+                        <span class="timeel timeRefYears">year</span>
+                      </div>
+                      <div>
+                        <span class="timeel years" id="months">00</span>
+                        <span class="timeel timeRefYears">months</span>
+                      </div>
+                      <div>
+                        <span class="timeel years" id="days">00</span>
+                        <span class="timeel timeRefYears">days</span>
+                      </div>
+                      <div>
+                        <span class="timeel years" id="hours">00</span>
+                        <span class="timeel timeRefYears">hours</span>
+                      </div>
+                      <div>
+                        <span class="timeel years" id="minutes">00</span>
+                        <span class="timeel timeRefYears">minutes</span>
+                      </div>
+                      <div>
+                        <span class="timeel years" id="seconds">00</span>
+                        <span class="timeel timeRefYears">seconds</span>
+                      </div>
+                  </div>
+                  <script>
+                                function updateCountup() {
+    const currentDate = new Date();
+    const startDate = new Date('2022-07-25T09:00:00'); // Replace with your start date
+    const timeDiff = currentDate - startDate;
+
+    const years = Math.floor(timeDiff / (365 * 24 * 60 * 60 * 1000));
+    const months = Math.floor((timeDiff % (365 * 24 * 60 * 60 * 1000)) / (30 * 24 * 60 * 60 * 1000));
+    const days = Math.floor((timeDiff % (30 * 24 * 60 * 60 * 1000)) / (24 * 60 * 60 * 1000));
+    const hours = Math.floor((timeDiff % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+    const minutes = Math.floor((timeDiff % (60 * 60 * 1000)) / (60 * 1000));
+    const seconds = Math.floor((timeDiff % (60 * 1000)) / 1000);
+
+    document.getElementById('years').textContent = years;
+    document.getElementById('months').textContent = months;
+    document.getElementById('days').textContent = days;
+    document.getElementById('hours').textContent = hours;
+    document.getElementById('minutes').textContent = minutes;
+    document.getElementById('seconds').textContent = seconds;
+}
+
+// Update the count-up every second
+setInterval(updateCountup, 1000);
+
+// Initial call to display the count-up
+updateCountup();
+                    </script>
+                  </div>
+                  
+                  
+                  <div>Currently Working on <strong>React.JS</strong>, HTML, CSS, Bootstrap and JS </div>
+                </div>
+              </div>
+              <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">Web Developer Intern <span class="text-muted h6">at <img src="images/recordant.jpg" height="30"  alt="srikant arya"><a href="https://recordent.com/" target="_blank">Recordent Pvt. Ltd.</a></span></div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3">Jan, 2022 - June, 2022</div>
+                  <div>Worked On Angular(Interpolation, Routing) and Swagger JS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+          <div class="education-section">
+            <h2 class="h2 fw-light mb-4">Education</h2>
+            <div class="timeline">
+              <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">B.tech in Mechanical<span class="text-muted h6"> from Vaageswari College of
+                      Engineering</span> </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3">2013 - 2017</div>
+                  <div>53%</div>
+                </div>
+              </div>
+              <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">Intermediate in M.P.C<span class="text-muted h6"> from Bharathi Junior College</span>
+                  </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3">2011 - 2013</div>
+                  <div>52%</div>
+                </div>
+              </div>
+              <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="400">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">S.S.C<span class="text-muted h6"> from Siddhartha High Scool</span> </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3">2010 - 2011</div>
+                  <div>71%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
+          <div class="portfolio-section">
+            <h2 class="h2 fw-light mb-4">Projects</h2>
+            <div class="row g-4">
+              <!-- <div class="col-md-6"><a target="_blank" href="https://aryasrikanth73.github.io/tbc-consultency/tbc_index.html" target="_blank"><img class="img-fluid"
+                src="images/project.jpg" width="800" height="500" /></a></div> -->
+                <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                  <div class="m-4 mt-md-2">
+                    <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
+                    <h3>Se7en Tech IT Solutions</h3>
+                    <p class="text-muted">Built highly performant landing page website project front end for a HR Consultant.
+                      Delivered codebase in HTML, CSS and JavaScript.</p>
+                    <p><a target="_blank" href="http://www.se7entechitsolutions.com">Click here</a> for this
+                      project.</p>
+                  </div>
+                </div>
+                <div class="col-md-6"><a target="_blank" href="http://www.se7entechitsolutions.com" target="_blank"><img class="img-fluid"
+                  src="images/Project-2.PNG" width="800" height="500" /></a></div>
+              
+              <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                <div class="m-4 mt-md-2">
+                  <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
+                  <h3>TBC Consultency Website</h3>
+                  <p class="text-muted">Built highly performant website project front end for a Job Consultency agency.
+                    Delivered codebase in HTML, CSS and JavaScript.</p>
+                  <p><a target="_blank" href="https://aryasrikanth73.github.io/tbc-consultency/tbc_index.html">Click here</a> for this
+                    project.</p>
+                </div>
+              </div>
+              <div class="col-md-6"><a target="_blank" href="https://aryasrikanth73.github.io/tbc-consultency/tbc_index.html" target="_blank"><img class="img-fluid"
+                src="images/project.jpg" width="800" height="500" /></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
+          <div class="contant-section">
+            <h2 class="h2 fw-light text mb-4">Contact</h2>
+            <div class="row mb-4">
+              <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                <div class="mt-1">
+                  <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +91
+                    98667 83703</div>
+                  <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
+                    srikantharya1@gmail.com</div>
+                </div>
+                <div class="mt-5 d-print-none">
+                  <form action="https://formspree.io/your@email.com" method="POST">
+                    <div class="form-outline mb-4">
+                      <input type="text" id="name" class="form-control" required />
+                      <label class="form-label" for="name">Name</label>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <input type="email" id="email" class="form-control" required />
+                      <label class="form-label" for="email">Email address</label>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <textarea class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
+                      <label class="form-label" for="message">Message</label>
+                    </div>
+                    <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100"><iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.621777986751!2d79.1374522143659!3d18.318896880093334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccdb894527899b%3A0xc0ff43299469e493!2sSrikanth%20Arya%20Home!5e0!3m2!1sen!2sin!4v1663139381746!5m2!1sen!2sin"
+                  width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+    <div class="container">
+      <div class="my-3">
+        <div class="h4">Srikanth Arya</div>
+        <div class="footer-nav">
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a target="_blank" class="nav-link" href="https://www.linkedin.com/in/srikanth-arya-061bb0226" title="Linked-In"><i
+                    class="fab fa-linkedin"></i><span class="menu-title sr-only">Linked-In</span></a>
+              </li>
+              <li class="nav-item"><a target="_blank" class="nav-link" href="https://www.facebook.com/srikanth.arya.18" title="Facebook"><i
+                    class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+              </li>
+              <li class="nav-item"><a target="_blank" class="nav-link" href="https://instagram.com/srikantharya204?igshid=YmMyMTA2M2Y="
+                  title="Instagram"><i class="fab fa-instagram"></i><span
+                    class="menu-title sr-only">Instagram</span></a>
+              </li>
+              <li class="nav-item"><a target="_blank" class="nav-link" href="https://github.com/aryasrikanth73" title="Github"><i
+                    class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+  <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+  <script src="scripts/aos.js?ver=1.2.1"></script>
+  <script src="scripts/main.js?ver=1.2.1"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script>
+  // Function to redirect after a specified time
+  function redirectToAnotherURL() {
+    // Change the URL below to the desired URL
+    var url = "https://www.linkedin.com/in/srikanth-arya/"; 
+    // Delay in milliseconds (10 seconds = 10000 milliseconds)
+    var delay = 10000; 
+    // Set timeout to redirect to another URL
+    setTimeout(function() {
+      window.location.href = url;
+    }, delay);
+  }
+</script>
+</body>
+
+</html>
