@@ -162,7 +162,7 @@
                         style="width:24px;opacity:0.85;"></i> Age</div>
                   </div>
                   <div class="col-sm-7">
-                    <div class="pb-2">26</div>
+                    <div class="pb-2"></div>
                   </div>
                   <div class="col-sm-5">
                     <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted"
@@ -481,6 +481,26 @@ updateCountup();
       document.getElementById("myBar").style.width = scrolled + "%";
     }
     </script>
+<!--   age calculator -->
+  <script>
+  // Function to calculate age based on birthday
+  function calculateAge(birthday) {
+    const birthDate = new Date(birthday);
+    const currentDate = new Date();
+    
+    let age = currentDate.getFullYear() - birthDate.getFullYear();
+    const monthDifference = currentDate.getMonth() - birthDate.getMonth();
+    
+    if (monthDifference < 0 || (monthDifference === 0 && currentDate.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    
+    return age;
+  }
+
+  // Update age element with the calculated age
+  document.getElementById('age').innerText = calculateAge('1996-06-04');
+</script>
 </body>
 
 </html>
