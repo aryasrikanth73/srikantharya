@@ -295,32 +295,57 @@ html {
                       </div>
                   </div>
                   <script>
-                                function updateCountup() {
-    const currentDate = new Date();
-    const startDate = new Date('2022-07-25T09:00:00'); // Replace with your start date
-    const timeDiff = currentDate - startDate;
+        function updateCountup() {
+            const currentDate = new Date();
+            const startDate = new Date('2022-07-25T09:00:00'); // Replace with your start date
 
-    const years = Math.floor(timeDiff / (365 * 24 * 60 * 60 * 1000));
-    const months = Math.floor((timeDiff % (365 * 24 * 60 * 60 * 1000)) / (30 * 24 * 60 * 60 * 1000));
-    const days = Math.floor((timeDiff % (30 * 24 * 60 * 60 * 1000)) / (24 * 60 * 60 * 1000));
-    const hours = Math.floor((timeDiff % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
-    const minutes = Math.floor((timeDiff % (60 * 60 * 1000)) / (60 * 1000));
-    const seconds = Math.floor((timeDiff % (60 * 1000)) / 1000);
+            let years = currentDate.getFullYear() - startDate.getFullYear();
+            let months = currentDate.getMonth() - startDate.getMonth();
+            let days = currentDate.getDate() - startDate.getDate();
+            let hours = currentDate.getHours() - startDate.getHours();
+            let minutes = currentDate.getMinutes() - startDate.getMinutes();
+            let seconds = currentDate.getSeconds() - startDate.getSeconds();
 
-    document.getElementById('years').textContent = years;
-    document.getElementById('months').textContent = months;
-    document.getElementById('days').textContent = days;
-    document.getElementById('hours').textContent = hours;
-    document.getElementById('minutes').textContent = minutes;
-    document.getElementById('seconds').textContent = seconds;
-}
+            if (seconds < 0) {
+                seconds += 60;
+                minutes--;
+            }
 
-// Update the count-up every second
-setInterval(updateCountup, 1000);
+            if (minutes < 0) {
+                minutes += 60;
+                hours--;
+            }
 
-// Initial call to display the count-up
-updateCountup();
-                    </script>
+            if (hours < 0) {
+                hours += 24;
+                days--;
+            }
+
+            if (days < 0) {
+                const prevMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0);
+                days += prevMonth.getDate();
+                months--;
+            }
+
+            if (months < 0) {
+                months += 12;
+                years--;
+            }
+
+            document.getElementById('years').textContent = years;
+            document.getElementById('months').textContent = months;
+            document.getElementById('days').textContent = days;
+            document.getElementById('hours').textContent = hours;
+            document.getElementById('minutes').textContent = minutes;
+            document.getElementById('seconds').textContent = seconds;
+        }
+
+        // Update the count-up every second
+        setInterval(updateCountup, 1000);
+
+        // Initial call to display the count-up
+        updateCountup();
+    </script>
                   </div>
                   
                   
