@@ -147,7 +147,7 @@
             </div>
           </div>
         </div>
-            <style>
+                <style>
         /* Default styles for the button (used in desktop view) */
         .mobile-view-call {
             position: fixed;
@@ -155,20 +155,17 @@
             right: 50px;
             cursor: pointer;
             z-index: 999;
-            color: #fff;
             width: 70px; /* Size of the button on desktop */
             height: 70px;
-            font-size: 15px;
-            text-align: center;
-            line-height: 48px;
-            background: #fff;
             border-radius: 50%;
             box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+            overflow: hidden; /* Ensures the image stays within the circular button */
         }
 
         .mobile-view-call img {
-            width: 100%;
-            height: 100%;
+            display: block; /* Ensures no unwanted space around the image */
+            width: 100%; /* Fills the parent element */
+            height: 100%; /* Fills the parent element */
         }
 
         /* Media Query for Mobile View */
