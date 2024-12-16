@@ -132,7 +132,19 @@ footer a:not(.nav-link) {
   text-decoration: none;
   cursor: pointer; }
 
-  
+  .mobile-view-call {
+            display: none;
+        }
+        @media (max-width: 567px) {
+            .mobile-view-call img {
+                width: 30px;
+                height: 30px;
+            }
+    
+            .mobile-view-call {
+                display: block;
+            }
+        }
 /*   video{
     width: 300px;
     height: 400px;
