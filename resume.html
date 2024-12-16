@@ -147,7 +147,7 @@
             </div>
           </div>
         </div>
-                <style>
+            <style>
         /* Default styles for the button (used in desktop view) */
         .mobile-view-call {
             position: fixed;
@@ -176,8 +176,8 @@
             .mobile-view-call {
                 bottom: 30px; /* Adjusting position for smaller screens */
                 right: 20px;
-                width: 70px; /* Larger size for mobile */
-                height: 70px;
+                width: 120px; /* Larger size for mobile */
+                height: 120px;
             }
 
             .mobile-view-call img {
@@ -211,7 +211,7 @@
         }
 
         // Initial call to set the link
-        updateWhatsAppLink();
+        window.onload = updateWhatsAppLink;
 
         // Update the link dynamically on window resize
         window.addEventListener('resize', updateWhatsAppLink);
