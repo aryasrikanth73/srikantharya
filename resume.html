@@ -147,8 +147,47 @@
             </div>
           </div>
         </div>
-        <!-- WhatsApp Link -->
-    <a id="whatsapp-link" class="mobile-view-call" target="_blank" href="https://api.whatsapp.com/send?phone=919866783703&amp;text=Hi%20The%20Srikanth%20Arya%2C%0A%0AI%20want%20to%20get%20connect%20with%20you">
+            <style>
+        /* Default styles for the button (used in desktop view) */
+        .mobile-view-call {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            cursor: pointer;
+            z-index: 999;
+            color: #fff;
+            width: 70px;
+            height: 70px;
+            font-size: 15px;
+            text-align: center;
+            line-height: 48px;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+        }
+
+        .mobile-view-call img {
+            width: 70px;
+            height: 70px;
+        }
+
+        /* Media Query for Mobile View */
+        @media (max-width: 568px) {
+            .mobile-view-call {
+                bottom: 30px;
+                right: 20px; /* Adjusting position for smaller screens */
+                width: 70px;
+                height: 70px;
+            }
+
+            .mobile-view-call img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    </style>
+    <!-- WhatsApp Link -->
+    <a id="whatsapp-link" class="mobile-view-call" target="_blank" href="https://api.whatsapp.com/send?phone=+919866783703&amp;text=Hi%20The%20Srikanth%20Arya%2C%0A%0AI%20want%20to%20get%20connect%20with%20you">
         <img src="https://aryasrikanth73.github.io/srikantharya/images/whatsapp.gif" alt="Call Me">
     </a>
 
@@ -160,7 +199,7 @@
             const message = "Hi Srikanth Arya,\nI want to get connect with you";
             const encodedMessage = encodeURIComponent(message);  // Encoding the message text
             
-            const mobileLink = `https://api.whatsapp.com/send?phone=919866783703&text=${encodedMessage}`;
+            const mobileLink = `https://api.whatsapp.com/send?phone=+919866783703&text=${encodedMessage}`;
             const desktopLink = `https://web.whatsapp.com/send?phone=9866783703&text=${encodedMessage}`;
 
             // Check if the screen size is mobile or desktop and update the link
