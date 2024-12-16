@@ -158,7 +158,7 @@ footer a:not(.nav-link) {
         /* Media Query for Mobile View */
         @media (max-width: 568px) {
             .mobile-view-call {
-                bottom: 50px;
+                bottom: 30px;
                 right: 20px; /* Adjusting position for smaller screens */
                 width: 70px;
                 height: 70px;
