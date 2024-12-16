@@ -147,9 +147,39 @@
             </div>
           </div>
         </div>
-        <a class="mobile-view-call" href="https://api.whatsapp.com/send?phone=+919866783703">
-          <img src="images/whatsapp.gif" alt="Call Me" alt="Srikanth Arya">
-        </a>
+        <a class="desktop-view-call" data-action="open" data-phone="9866783703" 
+   data-message="Hi The Srikanth Arya, I want to get connect with you" 
+   role="button" tabindex="0" target="_blank" 
+   href="https://web.whatsapp.com/send?phone=9866783703&amp;text=Hi%20The%20Srikanth%20Arya%2C%0A%0AI%20want%20to%20get%20connect%20with%20you">
+    <img src="images/whatsapp.gif" alt="Call Me" />
+</a>
+
+<a class="mobile-view-call" href="https://api.whatsapp.com/send?phone=+919866783703&amp;text=Hi%20The%20Srikanth%20Arya%2C%0A%0AI%20want%20to%20get%20connect%20with%20you">
+    <img src="images/whatsapp.gif" alt="Call Me" />
+</a>
+
+<style>
+.desktop-view-call {
+    display: none;
+}
+
+.mobile-view-call {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .desktop-view-call {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-view-call {
+        display: inline-block;
+    }
+}
+</style>
+
         <div class="shadow-1-strong bg-white my-5 p-5" id="about">
           <div class="about-section">
             <div class="row">
