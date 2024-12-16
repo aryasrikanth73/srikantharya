@@ -147,7 +147,7 @@
             </div>
           </div>
         </div>
-            <style>
+                <style>
         /* Default styles for the button (used in desktop view) */
         .mobile-view-call {
             position: fixed;
@@ -156,7 +156,7 @@
             cursor: pointer;
             z-index: 999;
             color: #fff;
-            width: 70px;
+            width: 70px; /* Size of the button on desktop */
             height: 70px;
             font-size: 15px;
             text-align: center;
@@ -167,22 +167,22 @@
         }
 
         .mobile-view-call img {
-            width: 70px;
-            height: 70px;
+            width: 100%;
+            height: 100%;
         }
 
         /* Media Query for Mobile View */
         @media (max-width: 568px) {
             .mobile-view-call {
-                bottom: 30px;
-                right: 20px; /* Adjusting position for smaller screens */
-                width: 70px;
+                bottom: 30px; /* Adjusting position for smaller screens */
+                right: 20px;
+                width: 70px; /* Larger size for mobile */
                 height: 70px;
             }
 
             .mobile-view-call img {
-                width: 70px;
-                height: 70px;
+                width: 100%;
+                height: 100%;
             }
         }
     </style>
